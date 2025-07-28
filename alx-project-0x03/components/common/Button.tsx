@@ -1,4 +1,5 @@
 // ## components/common/Button.tsx
+'use client'
 
 interface ButtonProps {
   buttonLabel: string

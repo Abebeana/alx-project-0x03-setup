@@ -1,12 +1,9 @@
-import React from 'react'
-import Layout from "../components/layouts/Layout";
-
-const index = () => {
+const Home = () => {
   return (
-    <Layout>
-      <div className="xl w-1/2 font-bold bg-amber-600">index</div>
-    </Layout>
-  )
+   <div>
+    <h1> Welcome to Splash App </h1>
+   </div>
+  );
 }
 
-export default index
+export default Home;

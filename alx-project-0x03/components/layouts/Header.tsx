@@ -1,5 +1,5 @@
 // ### components/layouts/Header.tsx
-
+'use client'
 import Link from "next/link";
 import Button from "../common/Button";
 
@@ -15,6 +15,8 @@ const Header: React.FC = () => {
         <div className="flex gap-4">
           <Button
             buttonLabel="Sign In"
+            buttonSize="px-4 py-2"
+            action={() => alert("Sign In Clicked")}
             buttonBackgroundColor="red"
           />
           <Button
