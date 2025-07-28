@@ -19,5 +19,8 @@ interface ButtonProps {
   action?: () => void
 }
 
+interface PageRouteProps {
+  pageRoute: string
+}
 
-export type { CardProps, ButtonProps, LayoutProps };
+export type { CardProps, ButtonProps, LayoutProps, PageRouteProps };
